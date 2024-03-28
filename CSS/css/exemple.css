@@ -1,0 +1,65 @@
+/* Nome do atributo
+
+[Atribute name]{elements | valor}
+
+
+no exemplo abaixo
+
+[title="valor"]{propriedade}
+
+ao colocar "~" antes do igual o css vai buscar a palavra exata ou que possua uma das palavras da propriedade
+
+[title~="valor"]{propriedade}
+
+outra forma é
+
+[title|="nome]{propriedade}
+
+
+*/
+
+[title]{
+    color: red;
+}
+
+
+[title="Fortnite"]{
+    color: blue;
+}
+
+[title="Freefire"]{
+    color: orange;
+}
+
+[title="Lol"]{
+    color: blueviolet;
+}
+
+/* Aqui eu estou aplicando uma prorpriedade dentro do elemento href que possui apenas o "http://"
+
+se caso eu quiser pesquisar dentro do href ou de qualquer elemento pra poder aplicar uma propriedade específica devo fazer assim.
+
+Pesquisar e aplicar.
+
+[href*=login]{
+    background-color:red
+}
+
+sufixo = que terminam com
+prefixo = que começam com
+
+
+
+*/
+
+/* sufixo */
+
+[href$="login"]{
+    background: rgba(0, 255, 55, 0.719);
+}
+
+/* prefixo */
+
+[href^="http://"]{
+    background: rgb(119, 29, 119);
+}
