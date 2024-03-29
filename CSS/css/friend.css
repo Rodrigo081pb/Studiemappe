@@ -1,0 +1,18 @@
+/* li {
+    color: red;
+}
+li li {
+    color: green;
+} */
+
+#lista-01 li {
+    background: rgb(0, 0, 0);
+}
+
+.fundo-black li {
+    background: red;
+}
+
+.fundo-black #sublista-01{
+    color: white;
+}

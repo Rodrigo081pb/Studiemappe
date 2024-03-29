@@ -1,0 +1,57 @@
+/* div {
+    background: blue;
+    width: auto; largura
+    height: auto;Altura 
+}
+
+    initial = assume valor inicial do css ou o padrão
+
+    inherit  = define o valor da propriedade de acordo com o pseuelemento pai
+
+
+    exemplo abaixo
+
+*/
+
+.div-01{
+    background: red;
+    width: 200px;
+    height: 300px;
+}
+
+.div-02{
+    background: green;
+    height: inherit;
+}
+
+/* Altura e largura minima e maxima */
+
+button{
+    margin-top: 20px;
+    background: red;
+    min-width: 300px;
+}
+
+.btn {
+    max-width: 300px;
+    min-width: 20px;
+}
+
+div{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+#elemento-01{
+    margin-top: 20px;
+    background: red;
+    margin-left: 15px; /* margem da direita */
+    margin-right: 2px; /* margem da esquerda */
+}
+
+#elemento-02{
+    margin-top: 10px; /*margem do topo */
+    background: purple;
+    margin-left: 20px; /*margem da direita */
+}
