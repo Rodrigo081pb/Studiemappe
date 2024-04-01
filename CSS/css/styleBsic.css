@@ -1,0 +1,14 @@
+/* Pré-Definidas */
+
+#pre-definidas{
+    color: purple;
+}
+
+#current-color{
+    background: red;
+}
+
+#rgb{
+    background: rgb(75,12,51);
+    color: white;
+}
