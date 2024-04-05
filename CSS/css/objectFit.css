@@ -1,0 +1,26 @@
+div{
+    width: 200px;
+    height: 300px;
+    border: solid 6px blue;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#contain{
+    object-fit: contain;
+}
+
+#cover {
+    object-fit: cover;
+}
+
+#none{
+    object-fit: none;
+}
+
+#scale-down{
+    object-fit: scale-down;
+}

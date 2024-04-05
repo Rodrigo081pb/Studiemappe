@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/css/objectFit.css">
+</head>
+<body>
+
+    <!-- Usando imagem como exemplo -->
+    <h1>Propriedade <code>Object-Fit</code></h1>
+    <code>object-fit: ObjetoFit ;</code>(padrao: ObjetoFit)
+    <div>
+        <img src="/CSS/img/exemple1Objectfit.jpg" alt="" id="ObjetoFit">
+    </div>
+
+    <br>
+
+    <code>object-fit: Contain ;</code>(padrao: Contain)
+    <div>
+        <img src="/CSS/img/exemple1Objectfit.jpg" alt="" id="contain">
+    </div>
+    
+    
+    <br>
+
+    <code>object-fit: Cover ;</code>(padrao: Cover)
+    <div>
+        <img src="/CSS/img/exemple1Objectfit.jpg" alt="" id="cover">
+    </div>
+
+    <br>
+
+    <code>object-fit: none ;</code>(padrao: none)
+    <div>
+        <img src="/CSS/img/exemple1Objectfit.jpg" alt="" id="none">
+    </div>
+
+    <br>
+
+    <code>object-fit: scale-down ;</code>(padrao: scale-down)
+    <div>
+        <img src="/CSS/img/exemple1Objectfit.jpg" alt="" id="scale-down">
+    </div>
+<!-- 
+    Ao utilizar o object filt estamos destruindo a proporção padrao da imagem e readaptando pro nosso código contendo a altura e largura informada
+    
+    Ao utilizar o contain ela vai ter sua proporção original mas ela vai ser redimencionada pra caber na largura e altura definida porém ela não vai ser destorcida
+
+    E ao utilizqr o cover a imagem vai preencher todo o container e ao inves de ficar distorcida ela vai cortar o espaço que a imagem ultrapassou ela corta e amplia no caso pra que ela possa caber 
+ 
+    Ao utilizar o none ele vai ignorar toda a altura e largura e vai manter o tamanho original ele ignora o conteudo pai
+
+    e o scale-down fica igual o contain ou none ele escolhe qual das configurações vai ser menor a (imagem) mas dependendo da imagem ele irá escolher o menor 
+
+-->
+</body>
+</html>
