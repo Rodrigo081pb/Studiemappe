@@ -1,0 +1,57 @@
+.exemple{
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+/*     
+    manipulando background com gradientes */
+    background-image: linear-gradient(#e66465, #9198e5);
+
+
+    /* 
+    Temos também o radial gradiente que é num formato de circulo */
+
+    /* 
+    
+    se caso quiser utilizar uma imagem como fundo 
+
+    background-image: url(/CSS/img/exemple1Objectfit.jpg);
+     */
+}
+
+/* Redimencionando image */
+
+div{
+    margin-bottom: 20px;
+}
+
+.exemplo{
+    width: 300px;
+    height: 300px;
+    background-image:url(/CSS/img/exemple1Objectfit.jpg);
+}
+
+/* cortando imagem pra ela preencher a div*/
+#cover{
+    background-size: cover;
+}
+
+#contain{
+    background-size: contain;
+}
+
+/* Trabalhando com a imagem */ 
+#tamanho{
+    background-size: 100%;
+}
+
+/* Manipulando tamanhos */ 
+#exemplo-x-y{
+    background-size: 200px 100%;
+}
+
+
+/*Aplicando mais de uma camada pra uma imagem 
+#exemplo-camadas{
+    background-size: contain, cover;
+}
+*/

@@ -1,0 +1,12 @@
+div{
+    height: 300px;
+    width: 200px;
+    border: 5px solid red;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 2px 2px;
+}
