@@ -35,6 +35,8 @@ console.log(`Os itens comprados foram: ${itensComprados}`);
 
 // Usando o famoso senão se (Exemplo autodidata)
 
+/* A lógica abaixo é pra verificar o perfil de condutor e de acordo com o número/tipo de condutor ele executa determinado resultado através do console */
+
 const perfilCondutor = 3;
 let automovelTeste = "";
 let valor = "";
