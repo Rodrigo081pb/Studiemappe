@@ -45,5 +45,3 @@ switch (fruteira) {
     console.log("Na sua casa não tem nenhum item pra fazer a vitamina");
     break;
 }
-
-// Exemplo professor :
