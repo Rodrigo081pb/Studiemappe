@@ -36,3 +36,5 @@ function getxp(nivel) {
 }
 
 getxp();
+
+console.log("Hello world!");
