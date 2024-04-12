@@ -24,3 +24,5 @@ const nivel = rankingNivel(saldo);
 const mensagem = `O herói tem saldo ${saldo} e está no nível ${nivel}`;
 
 console.log(mensagem);
+
+console.loh("Hello world");
