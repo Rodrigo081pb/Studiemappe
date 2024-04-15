@@ -25,4 +25,4 @@ class Hero {
 
 const hero = new Hero("Witther", 30, "mago");
 
-meuHeroi1.exibir();
+hero.exibir();
