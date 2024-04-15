@@ -10,5 +10,7 @@ class Bolo {
 }
 
 let boloFesta = new Bolo("Macaxeira", "Recheio de manga");
+let boloVo = new Bolo("Chocolate", " Morango");
 
 boloFesta.escrever();
+boloVo.escrever();
