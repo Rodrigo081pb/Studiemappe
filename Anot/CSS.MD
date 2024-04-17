@@ -34,4 +34,4 @@ por exemplo:
 propriedade: valor;
 
 background: white
-color: black
+color: red
