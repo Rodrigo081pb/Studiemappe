@@ -35,3 +35,5 @@ propriedade: valor;
 
 background: white
 color: red
+
+background-image:url(/)
