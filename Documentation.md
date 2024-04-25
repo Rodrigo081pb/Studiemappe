@@ -32,4 +32,4 @@ Segue documentação também relacionada ao gradiente
 
 https://projects.verou.me/css3patterns/
 
-## tem alguns exemplos que ele disponibiliza
+## Documentação Impulso JavaScript
