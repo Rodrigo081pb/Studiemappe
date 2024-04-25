@@ -32,4 +32,11 @@ Segue documentação também relacionada ao gradiente
 
 https://projects.verou.me/css3patterns/
 
+<<<<<<< HEAD
 ## Documentação Impulso JavaScript
+=======
+## tem alguns exemplos que ele disponibiliza
+
+
+iniciando no Java 24/04/2024
+>>>>>>> 02b8a42474d4b67d64aceef80b9c8acf9eb8ea53
