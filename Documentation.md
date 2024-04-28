@@ -39,4 +39,7 @@ https://projects.verou.me/css3patterns/
 
 
 iniciando no Java 24/04/2024
+
+
+pausa no dia 25/04/2024 - pra ir a praia.
 >>>>>>> 02b8a42474d4b67d64aceef80b9c8acf9eb8ea53
